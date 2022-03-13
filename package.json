@@ -1,0 +1,25 @@
+{
+  "name": "snke",
+  "version": "0.0.0",
+  "description": "",
+  "preferGlobal": true,
+  "type": "module",
+  "private": false,
+  "main": "./out/index.js",
+  "bin": {
+    "snake": "./out/index.js",
+    "snke": "./out/index.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  },
+  "scripts": {
+    "start": "node ./out/index.js"
+  },
+  "keywords": [],
+  "author": "Cooper Runyan",
+  "license": "WTFPL",
+  "devDependencies": {
+    "@types/blessed": "^0.1.19"
+  }
+}
