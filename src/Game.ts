@@ -51,7 +51,7 @@ export class Game {
     this.UI.screen.detach();
     this.UI = new UI(this);
     this.appleInstance = this.UI.drawBox(this.makeApple()); // create an apple
-    this.int = setInterval(this.move.bind(this), 100);
+    this.int = setInterval(this.move.bind(this), 200);
     this.listeners();
 
     this.snake = [
